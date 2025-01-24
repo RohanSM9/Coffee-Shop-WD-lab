@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teabucks</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+<header>
+    <div class="logo">Teabucks</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#rewards">Rewards</a>
+        <a href="#gift-cards">Gift Cards</a>
+        <a href="#login">Login</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Welcome to Teabucks</h1>
+        <p>Your favorite tea, delivered to your door.</p>
+        <button id="exploreButton">Explore Menu</button>
+    </div>
+</section>
+
+<section id="menu" class="content">
+    <div class="card">
+        <img src="photo-1531969179221-3946e6b5a5e7.avif" alt="Tea">
+        <h3>Freshly Brewed Tea</h3>
+        <p>Experience the rich flavors of our brewed Tea.</p>
+    </div>
+    <div class="card">
+        <img src="photo-1563822249366-3efb23b8e0c9.avif" alt="Pastries">
+        <h3>Delicious Pastries</h3>
+        <p>Perfectly paired with your tea.</p>
+    </div>
+    <div class="card">
+        <img src="photo-1609670438772-9cf3afc5052b.avif" alt="Rewards">
+        <h3>Join Rewards</h3>
+        <p>Earn stars for every sip and bite.</p>
+    </div>
+</section>
+
+<section id="rewards" class="rewards">
+    <h2>Rewards Program</h2>
+    <p>Sign up today and start earning rewards for every purchase!</p>
+    <button id="joinRewards">Join Now</button>
+</section>
+
+<section id="gift-cards" class="gift-cards">
+    <h2>Gift Cards</h2>
+    <p>Share the love of tea with our customizable gift cards.</p>
+    <button id="buyGiftCard">Buy Gift Card</button>
+</section>
+
+<section id="login" class="login">
+    <h2>Login / Register</h2>
+    <form id="registrationForm">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <label for="phone">Mobile Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="\d{10}" required>
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; <span id="year">2025</span> Teabucks All rights reserved. | <a href="#">Privacy Policy</a></p>
+</footer>
+
+<!-- Link to the external JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
